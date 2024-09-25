@@ -66,6 +66,15 @@ body {
   font-size: 16px;
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  font-size: 60px; 
+  color: #25D366;
+}
+
 #hero-area {
   background: linear-gradient(to bottom, #fa87d9, #a46ad3, #4938b5); 
 }
@@ -377,20 +386,6 @@ p {
 .section-title-five p {
   color: var(--dark-3);
 }
-
-.made-in-ayroui{
-  position: fixed;
-  left: 5px;
-  bottom: 5px;
-  z-index: 999;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.made-in-ayroui:hover{
-  transform: translateY(-5px);
-}
-
 
 /*===========================
   NAVBAR css 
