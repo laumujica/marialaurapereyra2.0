@@ -1748,7 +1748,7 @@ p {
 .contact-form-wrapper .section-title p {
   color: var(--dark-3);
 }
-.contact-form-wrapper .contact-form input,
+.contact-form-wrapper .contact-form input, 
 .contact-form-wrapper .contact-form textarea {
   padding: 15px 25px;
   border-radius: 30px;
